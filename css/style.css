@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Monserrat:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700');
+body{
+	font-family: 'Monserrat', sans-serif;
+	font-size: 14px;
+	color: #898989;
+	background-color: #f3f3f3; 
+}
+:root{
+		--Azul: #41c1fe;
+		--Fondo-oscuro: #383838;
+		--Fondo-gris: #f3f3f3;
+		--Titulos: #3c3838;
+		--Subtitulo: #88858;
+}
+#hero{
+	background-image: url("../img/Recursos Prueba/slider1_slide2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 250px;
+	align-content: center;
+	text-align: center;
+}
+#hero h1{
+	color: white;
+	font-weight: 300px;
+	font-size: 90px;
+	text-align: center;
+}
+#hero p{
+	padding-bottom: 70px;
+}
+.btn-men{
+	background-color:var(--Azul);
+	color: white;
+	border-radius: 30px;
+	padding: 10px 30px;
+	margin-right: 10px
+}
+.btn-women{
+	background-color: white;
+	color: var(--Azul);
+	border-radius: 30px;
+	padding: 10px 30px;
+}
+#ofertas{
+	font-family: 'Oswald';
+	margin-top: 50px;
+	text-align: center;
+	font-weight: 300;
+	color: white;
+}
+#ofertas article:nth-child(1){
+	background-image: url("../img/Recursos Prueba/men-running.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	text-align: center;
+	align-content: center;
+	padding: 150px 0px;
+	font-size: 70px;
+}
+#ofertas article:nth-child(2){
+	background-image: url(" ../img/Recursos Prueba/women-runnig.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	text-align: center;
+	align-content: center;
+	padding: 150px 0px;
+	font-size: 70px;
+}
+#ofertas article:nth-child(3){
+	background-color: var(--Azul); 
+	padding: 150px 0px;
+	text-align: center;
+	align-content: center;
+	font-size: 70px;
+}
+#product{
+	text-align: center;
+	font-family: Oswald;
+	align-content: center;
+	margin-top: 50px;
+}
+#product h2{
+	font-size: 50px;
+	color: var(--Titulos);
+}
+#product article{
+	background-color: white;
+	margin-top: 30px;
+	padding: 30px 0px;
+}
+#new{
+	background-image: url( "../img/Recursos Prueba/bg_action.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 50px;
+	padding:80px 0px;
+	
+}
+#ofertas2{
+	font-family: 'Oswald';
+	margin-top: 50px;
+	text-align: center;
+	font-weight: 300;
+	color: white;
+}
+#ofertas2 article:nth-child(1){
+	background-image: url( "../img/Recursos Prueba/service-1-1170x658.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	text-align: center;
+	align-content: center;
+	padding: 100px 0px;
+	font-size: 70px;
+}
+#ofertas2 article:nth-child(2){
+	background-image: url( "../img/Recursos Prueba/service-2-1170x658.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	text-align: center;
+	align-content: center;
+	padding: 100px 0px;
+	font-size: 70px;
+}
+#ofertas2 article:nth-child(3){
+	background-image: url( "../img/Recursos Prueba/service-3-1170x658.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 100px 0px;
+	text-align: inherit;
+	align-content: center;
+	font-size: 70px;
+}
+#product2{
+	text-align: center;
+	font-family: Oswald;
+	align-content: center;
+	margin-top: 50px;
+}
+#product2 h2{
+	font-size: 50px;
+	color: var(--Titulos);
+}
+#product2 article{
+	background-color: white;
+	margin-top: 30px;
+	padding: 30px 0px;
+}
+footer{
+	background-color: var(--Fondo-oscuro);
+	color: white;
+	padding: 50px;
+	font-weight: 300;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+footer img{
+	margin-bottom: 30px;
+	text-align: left !important;
+}
+
